@@ -1,0 +1,31 @@
+/*** started coding 1/30/22 ***/
+
+body {
+    font-family: 'Montserrat', 'Open Sans';
+}
+
+.container {
+	width: 924px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    color: #F16059;
+    font-family: 'Montserrat';
+}
+
+p {
+    color: #3b3b3b;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    line-height: 16px;
+}
+
+li {
+    color: #3b3b3b;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    line-height: 16px;
+}
