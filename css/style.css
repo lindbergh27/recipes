@@ -9,6 +9,11 @@ body {
 	margin: 0 auto;
 }
 
+header {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
 h1,
 h2,
 h3 {
@@ -16,14 +21,7 @@ h3 {
     font-family: 'Montserrat';
 }
 
-p {
-    color: #3b3b3b;
-    font-size: 12px;
-    font-family: 'Open Sans';
-    line-height: 16px;
-}
-
-li {
+main {
     color: #3b3b3b;
     font-size: 12px;
     font-family: 'Open Sans';
