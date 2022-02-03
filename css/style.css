@@ -89,7 +89,7 @@ main {
 .prep, .cook, .total {
     float: left;
     padding: 6px;
-    /**width: 50px; **/
+    /**width: 50px; ***/
     width: 33.3333%;
     display: inline-block;
     box-sizing: border-box;
