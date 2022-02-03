@@ -41,7 +41,6 @@ main {
 
 .card {
     margin: 50px 0 50px 0;
-    border: 3px;
     height: 800px;
     overflow: auto;
 }
@@ -58,6 +57,7 @@ main {
     width: 500px;
     height: 550px;
     background-color: white;
+    border: 1px solid black;
     box-sizing: border-box;
 }
 #cookies .image {
@@ -76,9 +76,11 @@ main {
 }
 .time {
     margin-bottom: 5px;
-    border-bottom: 1px #3B3B3B;
-    float: left;
+    /** border-bottom: 1px solid #3B3B3B; **/
+    border: 1px solid black;
+    /*** float: left; ***/
     padding-left: 6px;
+    box-sizing: border-box;
 }
 .time-details {
     overflow: auto;
@@ -87,9 +89,16 @@ main {
 .prep, .cook, .total {
     float: left;
     padding: 6px;
-    width: 50px;
-    width: 135px;
+    /**width: 50px; **/
+    width: 33.3333%;
+    display: inline-block;
+    box-sizing: border-box;
 }
 .description {
     clear: both;
 }
+
+.prep {
+    border: 1px solid black;
+}
+
