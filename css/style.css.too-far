@@ -1,0 +1,81 @@
+/*** started coding 1/30/22 ***/
+
+body {
+    font-family: 'Montserrat', 'Open Sans';
+    background-color: #daf7f6;
+   
+}
+
+.container {
+	width: 924px;
+	margin: 0 auto;
+}
+
+header {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+header img {
+    margin: 0 12px 0 0;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 40px 0 20px 0;
+    font-size: 48px;
+    
+}
+
+h1,
+h2,
+h3 {
+    color: #F16059;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+main {
+    color: #3b3b3b;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    line-height: 16px;
+    background-color: #daf7f6;
+    width: 1000px;
+}
+
+article div .image {
+    float: left;
+}
+
+article {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+article div .recipe {
+    float: right;
+}
+
+.columns .ingredients {
+    width: 150px;
+}
+
+.columns .directions {
+    width: 150px;
+    float: right;
+}
+
+.time-details {
+    width: 120px;
+    border: 2px;
+    border-color: black;
+    display: inline-block;
+    padding: 10px;
+    float: left;
+}
+
